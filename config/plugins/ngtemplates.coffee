@@ -12,13 +12,13 @@ module.exports = (lineman) ->
     ngtemplates:
       app:
         options:
-          base: "app/templates"
-        src: "app/templates/**/*.html"
+          base: "app"
+        src: "app/**/*.html"
         dest: "<%= files.ngtemplates.dest %>"
 
     watch:
       ngtemplates:
-        files: "app/templates/**/*.html",
+        files: "app/**/*.html",
         tasks: ["ngtemplates", "concat_sourcemap:js"]
 
   files:

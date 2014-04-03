@@ -1,18 +1,18 @@
 {
-  "name": "lineman-angular",
-  "description": "An Angular.js plugin for Lineman",
-  "version": "0.2.0",
-  "homepage": "https://github.com/linemanjs/lineman-angular",
+  "name": "lineman-angular-goog",
+  "description": "An Angular.js plugin for Lineman based on the Google project structure",
+  "version": "0.0.1",
+  "homepage": "https://github.com/herculesksp/lineman-angular",
   "author": {
-    "name": "Justin Searls",
-    "email": "justin@testdouble.com"
+    "name": "Prashanth K S",
+    "company": "eMukti"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/linemanjs/lineman-angular.git"
+    "url": "https://github.com/herculesksp/lineman-angular.git"
   },
   "bugs": {
-    "url": "https://github.com/linemanjs/lineman-angular/issues"
+    "url": "https://github.com/herculesksp/lineman-angular/issues"
   },
   "dependencies": {
     "grunt-angular-templates": "~0.3.8",
