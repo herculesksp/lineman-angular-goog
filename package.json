@@ -1,27 +1,35 @@
 {
-  "name": "lineman-angular-goog",
-  "description": "An Angular.js plugin for Lineman based on the Google project structure",
-  "version": "0.0.1",
-  "homepage": "https://github.com/herculesksp/lineman-angular",
+  "name": "lineman-less",
+  "description": "A Less plugin for Lineman, using grunt-contrib-less",
+  "version": "0.1.0",
+  "homepage": "https://github.com/linemanjs/lineman-less",
   "author": {
-    "name": "Prashanth K S",
-    "company": "eMukti"
+    "name": "Justin Searls",
+    "email": "justin@testdouble.com"
   },
+  "contributors": [
+    {
+      "name": "Jay Harris",
+      "email": "jay@aranasoft.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/herculesksp/lineman-angular.git"
+    "url": "https://github.com/linemanjs/lineman-less.git"
   },
   "bugs": {
-    "url": "https://github.com/herculesksp/lineman-angular/issues"
+    "url": "https://github.com/linemanjs/lineman-less/issues"
+  },
+  "scripts": {
+    "postinstall": "node script/postinstall.js"
   },
   "dependencies": {
-    "grunt-angular-templates": "~0.3.8",
-    "grunt-ngmin": "~0.0.3",
-    "coffee-script": "~1.6.3",
-    "underscore": "~1.5.2"
+    "grunt-contrib-less": "~0.10.0",
+    "coffee-script": "~1.7.1",
+    "find-root-package": "0.0.1"
   },
   "peerDependencies": {
-    "lineman": ">= 0.23.0"
+    "lineman": ">= 0.27.0"
   },
   "devDependencies": {
     "grunt": "^0.4.4",
@@ -36,6 +44,7 @@
   "keywords": [
     "lineman",
     "linemanplugin",
-    "angular"
+    "less",
+    "css"
   ]
 }
